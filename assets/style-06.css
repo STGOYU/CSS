@@ -1,0 +1,32 @@
+h1.baslik{
+    color: yellow;
+}
+.baslik{
+    color: green;
+}
+h1{
+    color: violet;
+}
+*{
+    color:aqua;
+}
+h1.baslik{
+    color: orangered;
+}
+h1.baslik.renk{
+    color:darkviolet;
+
+    /* 
+    color : metnin renk stil ozelligini verir
+
+    text-indent : paragrafin ilk satirina girinti vermek icin kullanilir
+    text-indent : 40px;
+
+    text-transform : metnin tamamini büyük harf , kücük harf veya sadece bas harfini büüyk yapmak icin kullanilir
+    text-transform : capitalize ; -bas harfler
+    
+    text-decoration : metni alti cizili yapmak icin kullanilir
+    text-decoration : line-through;
+
+     */
+}

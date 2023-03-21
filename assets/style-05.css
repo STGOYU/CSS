@@ -1,7 +1,11 @@
 *{
     color:cornflowerblue;
     /* * butun html taglarinin ozelligini degistirir */
-    /* sadece bu tag icin gecerli degisiklik , nokta classlarda degisiklik demek , #tag icin gecerlidir */
+    /* sadece bu tag icin gecerli degisiklik , nokta class(sinif)larda degisiklik demek , #tag icin gecerlidir
+    Inline seçiciler her zaman diğerlerini ezer
+    Hedefi en detaylı şekilde tanımlayan seçici diğerlerini ezer
+    Eğer seçici tanımları aynı ise, hedefe en yakın olan seçici diğerlerini ezer 
+    */
 }
 
 
@@ -23,5 +27,5 @@ h1.center{
 }
 
 .span1{
-    color: crimson;
+    color: rgb(20, 220, 107);
 }

@@ -1,0 +1,34 @@
+body{
+    /* font burdan degistirilir */
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+h1.title{
+    text-decoration: line-through;
+    font-style: italic;
+    font-weight: 500;
+
+
+    /* 
+    font-family : yazi tipini ayarlamak icin kullanilir
+
+    font-weight : yaziyi kalin yapmak icin kullanilir
+    font-weight:700;
+
+    font-variant : yazinin tum kücük harflerini büyük harfe cevirmek icin kullanilir
+    font-variant : small-caps ;
+
+    font-style : yaziyi italik yapmak icin kullanilir
+
+    font-size : yazinin boyutunu ayarlamak icin kullanilir
+    
+    font : italic small-cap bold 1.2rem Helvetica,arial,sans-serif;
+    
+    
+    */
+}
+

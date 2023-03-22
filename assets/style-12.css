@@ -1,0 +1,46 @@
+body, html{
+
+    height: 100%;
+    font-size: 0.8em;
+    /* chield larda em degeri katlanarak artiyor */
+}
+
+.kutu1{
+    background-color: aqua;
+    width: 3cm;
+    height: 30%;
+   
+    /* piksel baska ekranlarda degisir ancak cm degismez */
+}
+
+.kutu2{
+    background-color: rgb(255, 38, 0);
+    width: 300px;
+}
+
+.kutu3{
+    background-color: rgb(136, 255, 0);
+    width: 50%;
+    height: 300px;
+    font-size: 2em;
+    /* parent inin genisliginin yarisi 
+       with ve height zorunlu kalmadikca kullanilmaz
+       */
+}
+
+.kutu4{
+    background-color: rgb(68, 0, 255);
+    width: 50%;
+    height: 50%;
+    font-size: 2em;
+    /* kutu3 un icine koyduk,, genisliginin yarisi */
+}
+
+.kutu5{
+    background-color: rgb(255, 0, 191);
+    width: 50vw;
+    height: 10vh;
+    font-size: 2em;
+    /*yandaki bosluk olculerden dolayi vw den cikinti yapti
+    vw port buyuklugune gore vh verilir */
+}

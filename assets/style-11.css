@@ -3,4 +3,6 @@ ul.lorem-list{
     list-style-position: outside;
     /* listenin pozisyonunu degistirir */
     line-height: 2rem;
+
+    /* list-style : square inline; yazarak bir liste işaretinin türünü ve pozisyonunu değiştirebiliriz. */
 }

@@ -1,0 +1,38 @@
+body{
+    /* font burdan degistirilir */
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+a:hover{
+    color: white;
+    background-color: chocolate;
+}
+
+
+nav.main-menu{
+
+    background-color:beige;
+}
+
+.main-menu-ul{
+    list-style-type: '✏️';
+    list-style-position: inside;
+    padding: 0%;
+}
+
+.main-menu-link{
+    padding: 5px;
+}
+
+.main-menu-link:hover{
+    color: white;
+    background-color: chocolate;
+}
+

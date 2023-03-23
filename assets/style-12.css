@@ -10,7 +10,7 @@ body, html{
     width: 3cm;
     height: 30%;
    
-    /* piksel baska ekranlarda degisir ancak cm degismez */
+    /* piksel baska ekranlarda degisir!!!! ancak cm degismez */
 }
 
 .kutu2{
@@ -24,7 +24,7 @@ body, html{
     height: 300px;
     font-size: 2em;
     /* parent inin genisliginin yarisi 
-       with ve height zorunlu kalmadikca kullanilmaz
+       with ve height zorunlu kalmadikca kullanilmaz !!!
        */
 }
 
@@ -43,4 +43,13 @@ body, html{
     font-size: 2em;
     /*yandaki bosluk olculerden dolayi vw den cikinti yapti
     vw port buyuklugune gore vh verilir */
+
+    /* relative(göreceli) ölçü birimleri ; rem, vw , % 
+        absolute(mutlak) ölçü birimleri ; cm, px, pt
+        
+       rem ; ölçü birimi kök elementin font-size ına bağlı olarak değişkenlik gösterir.
+       vw ; ölçü birimi tarayıcının genişliğine bağlı olarak değişkenlik gösterir.
+       % ; ölçü birimi içinde bulunduğu elementin boyutları ile ilişkilidir.
+       em ; ölçü birimi içinde bulunduğu elementin font-size ına bağlı olarak değişkenlik gösterir.
+       vh ; ölçü birimi tarayıcının yüksekliğine bağlı olarak değişkenlik gösterir.*/
 }

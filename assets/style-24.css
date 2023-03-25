@@ -1,0 +1,20 @@
+p.about::first-letter{
+    font-size: 2rem;
+}
+
+p.about::first-line{
+    color: red;
+}
+
+p.about::selection{
+    background-color: antiquewhite;
+}
+
+.list{
+    color: rebeccapurple;
+}
+
+.list li::marker{
+    color: rgb(163, 141, 141);
+    font-size: 2rem;
+}

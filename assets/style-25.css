@@ -1,0 +1,37 @@
+:root {
+    --bg-color: white;
+    --img-margin: 10px;
+    --border-radius: 5px;
+    --caption-bg: #fff;
+    --caption-padding: 10px;
+    --caption-font-size: 16px;
+    --caption-color: #393232;
+}
+
+html {
+height: 100%;
+width: 100%;
+}
+
+a{
+text-decoration: none;
+color: #00AAFF;
+font-size: 14px;
+}
+
+a:hover{
+background-color: aqua;
+text-decoration: underline;
+}
+
+.font-family{
+text-align: left;
+font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+display: block;
+margin:auto;
+border-radius: var(--border-radius);
+padding: 0%;
+}

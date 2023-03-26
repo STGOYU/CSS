@@ -18,3 +18,34 @@ p.about::selection{
     color: rgb(163, 141, 141);
     font-size: 2rem;
 }
+
+.title::before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    margin-right: 10px;
+
+}
+
+.title::after{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    margin-left: 10px;
+}
+
+.about span::before{
+    content: "[ ";
+    color: red;
+    font-weight: bold;
+}
+
+.about span::after{
+    content: " ]";
+    color: red;
+    font-weight: bold;
+}

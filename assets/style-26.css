@@ -1,0 +1,34 @@
+nav.menu li{
+    color: red;
+    /* 3. bnu ezdi */
+}
+
+nav.menu > ul > li{
+    color:rgb(44, 30, 12);
+}
+
+nav.menu ul ul > li{
+    color: chartreuse;
+}
+
+nav.menu ul ul li:last-child{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+nav.menu + p{
+    font-size: 2rem;
+    /* hello bunu kesti */
+}
+
+nav.menu ~ p{
+    color: blueviolet;
+    /* divler kesemedi cunku bu kapsayici */
+}
+
+nav.menu ul li:nth-child(3) ~ li {
+    color: red;
+}
+
+

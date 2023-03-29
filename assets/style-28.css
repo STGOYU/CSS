@@ -1,0 +1,16 @@
+.menu{
+    list-style-type: none;
+}
+
+/* .a{
+    margin-right: 30px;
+    text-decoration: underline;
+} */
+
+.menu li:before{
+    font: var(--fa-font-solid);
+    content: "\f007";
+    font-size: 0.7rem;
+    margin-right: 10px;
+    color: brown;
+}

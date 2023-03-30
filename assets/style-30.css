@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    /* flex-direction: column,row,row-reverse,column-reverse; */
+    flex-direction: column;
+    /* justify-content: center,flex-end,flex-start,space-between,space-around,space-evenly; nereye hizanladiginia bakar*/
+    justify-content: center;
+    /* align-items: flex-end; direk yazinca gitmedi container acilacak vh*/
+    /* align-items: stretch; defaultta renkleri uzatti*/ 
+    align-items: stretch;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+.container div{
+    /* width: 50px; dikeyde lazim*/
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* display: flex; */
+    /* container in kutulari yanyana geldi onlari flexleyebilirsin
+     <!-- Bu yapının kullanım amacı istediğimiz şeyi istediğimiz yere yerleştirmek ve responsive bir yapı oluşturmak -->
+    <!-- Bu yapı ile amaçlanan farklı ekran tiplerinde aynı content in ekran boyutundan dolayı görünümünde bir deformasyona uğramamasını sağlamak --> */
+}
+.container div:nth-child(1){
+    background-color: aqua;
+}
+.container div:nth-child(2){
+    background-color:crimson;
+}
+.container div:nth-child(3){
+    background-color: chartreuse;
+}
+.container div:nth-child(4){
+    background-color: blueviolet;
+}
+.container div:nth-child(5){
+    background-color:coral;
+}

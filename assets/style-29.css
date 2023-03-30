@@ -1,0 +1,29 @@
+.custom-checkbox input[type="checkbox"]{
+    /* type i checkbox olan inputlari gizledik [type] */
+    display: none; 
+    /* none yok etti */
+}
+
+.custom-checkbox label{
+    cursor: pointer;
+    /* tiklanabilir oldu */
+}
+
+.custom-checkbox label::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid red;
+    /* border: cercevenin kalinligi titpt ve rengi */
+    /* content ve display olmaz ise gorunmuyor */
+    border-radius: 5px;
+    margin-right: 5px;
+    /* radius koseleri inceltti margin boslugu artirdi*/
+
+}
+
+.custom-checkbox > input[type="checkbox"]:checked + label::before{
+    /* custom checbox check edildiginde child i input un arkaplani ayarlanacak ,+ sonraki label in arkaplani */
+    background-color: red;
+}

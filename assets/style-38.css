@@ -1,0 +1,25 @@
+body{
+    background-image: url("../img/bg.jpg");
+    /* background-repeat: repeat-x,repeat-y; */
+    /* background-repeat: no-repeat; */
+    background-repeat: repeat-x;
+    background-position: top center;
+    background-size: 100px;
+    height: 100vh;
+}
+
+.banner1{
+    background-image: url("../img/nature.jpg");
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner2{
+    background-image: url("../img/nature.jpg");
+    height: 30vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
